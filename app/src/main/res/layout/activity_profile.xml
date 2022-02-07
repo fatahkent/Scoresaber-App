@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMessageActivity">
+
+    <TextView
+        android:id="@+id/profileNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Profile Name: "
+        app:layout_constraintEnd_toStartOf="@+id/profileName"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Name"
+        app:layout_constraintBaseline_toBaselineOf="@+id/profileNameLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/profileNameLabel" />
+
+    <TextView
+        android:id="@+id/GlobalRankLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/GlobalRankLabel"
+        app:layout_constraintEnd_toEndOf="@+id/profileNameLabel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/profileNameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileNameLabel" />
+
+    <TextView
+        android:id="@+id/GlobalRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/GlobalRank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toEndOf="@+id/GlobalRankLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileName" />
+
+    <TextView
+        android:id="@+id/CountryRankLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/CountryRankLabel"
+        app:layout_constraintEnd_toEndOf="@+id/GlobalRankLabel"
+        app:layout_constraintStart_toStartOf="@+id/GlobalRankLabel"
+        app:layout_constraintTop_toBottomOf="@+id/GlobalRankLabel" />
+
+    <TextView
+        android:id="@+id/CountryRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/CountryRank"
+        app:layout_constraintBaseline_toBaselineOf="@+id/CountryRankLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CountryRankLabel" />
+
+    <TextView
+        android:id="@+id/TotalPlayCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/TotalPlayCountLabel"
+        app:layout_constraintEnd_toEndOf="@+id/CountryRankLabel"
+        app:layout_constraintStart_toStartOf="@+id/CountryRankLabel"
+        app:layout_constraintTop_toBottomOf="@+id/CountryRankLabel" />
+
+    <TextView
+        android:id="@+id/TotalPlayCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/TotalPlayCount"
+        app:layout_constraintBaseline_toBaselineOf="@+id/TotalPlayCountLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TotalPlayCountLabel" />
+
+    <TextView
+        android:id="@+id/totalPlayCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/TotalRankedCountLabel"
+        app:layout_constraintEnd_toEndOf="@+id/TotalPlayCountLabel"
+        app:layout_constraintStart_toStartOf="@+id/TotalPlayCountLabel"
+        app:layout_constraintTop_toBottomOf="@+id/TotalPlayCountLabel" />
+
+    <TextView
+        android:id="@+id/TotalRankedCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/TotalRankedCount"
+        app:layout_constraintBaseline_toBaselineOf="@+id/totalPlayCountLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/totalPlayCountLabel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

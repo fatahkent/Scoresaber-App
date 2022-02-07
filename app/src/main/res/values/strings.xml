@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BS Tracking Test</string>
+    <string name="profile">Beatsaber Profile</string>
+    <string name="ranked">Ranked Songs</string>
+    <string name="casual">Non-Ranked Songs</string>
+    <string name="all">All Songs</string>
+    <string name="profileNameLabel">"Profile Name: "</string>
+    <string name="profileName">Name</string>
+    <string name="GlobalRankLabel">"Global Rank: "</string>
+    <string name="GlobalRank">#</string>
+    <string name="CountryRankLabel">Country Rank:</string>
+    <string name="CountryRank">#</string>
+    <string name="TotalPlayCountLabel">Total Play Count:</string>
+    <string name="TotalPlayCount">totalPlayCount</string>
+    <string name="TotalRankedCountLabel">Total Ranked Play Count:</string>
+    <string name="TotalRankedCount">#</string>
+    <string name="rankedSongs">#</string>
+</resources>
