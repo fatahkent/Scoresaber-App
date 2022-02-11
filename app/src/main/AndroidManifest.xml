@@ -23,6 +23,12 @@
             />
 
         <activity
+            android:name=".GetUnrankedSongsActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false"
+            />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

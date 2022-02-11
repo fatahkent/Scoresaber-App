@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/ranked"
+        android:text="@string/unranked"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TotalPlayCountLabel" />
 
@@ -41,8 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/rankedSongs"
-        android:scrollbars = "vertical"
+        android:scrollbars="vertical"
+        android:text="@string/unrankedSongs"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/unranked" />
 

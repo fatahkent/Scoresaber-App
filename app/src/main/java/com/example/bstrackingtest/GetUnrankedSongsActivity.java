@@ -22,8 +22,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class GetRankedSongsActivity extends AppCompatActivity {
-
+public class GetUnrankedSongsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,13 +61,13 @@ public class GetRankedSongsActivity extends AppCompatActivity {
                                     String getClass = user.getJSONObject("score").get("pp").getClass().toString();
                                     String pp = user.getJSONObject("score").get("pp").toString();
                                     if (pp.equals("0")){
-                                        continue;
-                                    }
-                                    else{
                                         String rank = (user.getJSONObject("score").get("rank")).toString();
                                         String songName = (String) user.getJSONObject("leaderboard").get("songName");
                                         songMap.put(songName,rank);
                                         songs.append(songName + ": " + rank + "\n");
+                                    }
+                                    else{
+                                        continue;
                                     }
                                 }
 

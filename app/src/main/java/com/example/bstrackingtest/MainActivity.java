@@ -92,4 +92,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent2);
     }
 
+    public void getUnranked(View view) {
+        System.out.println("1: " + total);
+        System.out.println("2: " + rank);
+        bundle.putString("total", total);
+        bundle.putString("rank", rank);
+        Intent intent2 = new Intent(this, GetUnrankedSongsActivity.class);
+        intent2.putExtras(bundle);
+        startActivity(intent2);
+    }
+
 }

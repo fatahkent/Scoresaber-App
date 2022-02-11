@@ -15,4 +15,7 @@
     <string name="TotalRankedCountLabel">Total Ranked Play Count:</string>
     <string name="TotalRankedCount">#</string>
     <string name="rankedSongs">#</string>
+    <string name="UnrankedLabel">Total Unranked Play Count:</string>
+    <string name="unrankedSongs">#</string>
+    <string name="unranked">Unranked Songs</string>
 </resources>
